@@ -144,6 +144,18 @@ class chat {
           return;
       }
 
+       // If all validations pass, store the data
+      this.username = inputUsername;
+      this.password = inputPassword;
+      this.firstname = inputFirstname;
+      this.lastname = inputLastname;
+      this.cellphone = inputCellphone;
+
+      System.out.println("User registered successfully!");
+      System.out.println("Welcome, " + firstname + " " + lastname + "!");
+
+      // Note: Removed the login call since login class doesn't exist yet
+  }
 
 
 

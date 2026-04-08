@@ -169,7 +169,14 @@ class chat {
         System.out.print("Enter password: ");
         String inputPassword = scanner.nextLine();
 
-        
+          // Check if the entered username and password match the registered ones
+        if (inputUsername.equals(this.username) && inputPassword.equals(this.password)) {
+            System.out.println("Login successful! Welcome back, " + firstname + " " + lastname + "!");
+        } else {
+            System.out.println("Login failed! Invalid username or password.");
+        }
+      
+  }
 
 public class ChatApp_RegistrationLogin {
 

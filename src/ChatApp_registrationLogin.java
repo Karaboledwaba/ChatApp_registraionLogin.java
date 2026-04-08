@@ -157,8 +157,19 @@ class chat {
       // Note: Removed the login call since login class doesn't exist yet
   }
 
+   //creating a void method called userlogin
+  void userlogin(){
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+    
+        System.out.println("=== User Login ===");
+    
+        // Get username and password for login
+        System.out.print("Enter username: ");
+        String inputUsername = scanner.nextLine();
+        System.out.print("Enter password: ");
+        String inputPassword = scanner.nextLine();
 
-
+        
 
 public class ChatApp_RegistrationLogin {
 
@@ -169,3 +180,5 @@ public class ChatApp_RegistrationLogin {
     public static void main(String[] args) {
         // TODO code application logic here
     }
+}
+}

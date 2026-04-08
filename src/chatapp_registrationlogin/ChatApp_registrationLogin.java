@@ -185,7 +185,14 @@ public class ChatApp_RegistrationLogin {
      */
     //creating a variable
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Create an instance of the chat class
+        chat app = new chat();
+        
+        // Call the registration method
+        app.registeruser();
+        
+        // Call the login method
+        app.userlogin();
     }
 }
 }

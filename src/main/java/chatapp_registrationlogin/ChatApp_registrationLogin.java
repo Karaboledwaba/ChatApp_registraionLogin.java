@@ -1,4 +1,4 @@
- /*
+/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
@@ -171,7 +171,7 @@ class chat {
 
           // Check if the entered username and password match the registered ones
         if (inputUsername.equals(this.username) && inputPassword.equals(this.password)) {
-            System.out.println("Login successful! Welcome back, " + firstname + " " + lastname + "!");
+            System.out.println("Login successful! Welcome back, " + firstname + " " + lastname + "! ");
         } else {
             System.out.println("Login failed! Invalid username or password.");
         }
